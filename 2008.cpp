@@ -129,7 +129,7 @@ bool uguali(char stringa1[], char stringa2[]){//questa funzione mi controlla se 
 bool flag=false;
 int i=0;
 while(stringa1[i]!='\0'){//scorro il primo vettore fino alla fine
-    if(stringa1[i]==stringa2[i]){//controllo se il carattere della stringa1 è uguale al carattere della stringa 2
+    if(stringa1[i]==stringa2[i]){//controllo se il carattere della stringa1 Ã¨ uguale al carattere della stringa 2
         flag=true;
         i++;
     }
@@ -163,7 +163,7 @@ void elimina_passati(lista& inizio, appuntamento oggi){
     appuntamento a;
     bool flag=true;
 while(inizio!=0&&flag){//scorro la lista dall inizio e la fermo con il flag
-if(data_meno(inizio,oggi)){//controllo se le data della lista è minore della data fin dove ho deciso di eliminare epoi faccio l estrazione dalla testa della lista
+if(data_meno(inizio,oggi)){//controllo se le data della lista Ã¨ minore della data fin dove ho deciso di eliminare epoi faccio l estrazione dalla testa della lista
     lista p=inizio;
     a=*p;
     inizio=p->succ;
@@ -177,3 +177,4 @@ inizio=inizio->succ;
 }
 }
 
+//Coded by DarkCerfa
